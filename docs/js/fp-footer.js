@@ -1,6 +1,4 @@
-import{LitElement as a,css as o,html as t,nothing as s}from"lit";import n from"../css/system.css"with{type:"css"};const i={about:`FP+ is an alternative way into the UFC Fight Pass library: Fight Pass has the
-    catalogue but little means of searching it, so this layers real search over the same
-    videos. Nothing plays here \u2014 choosing a fight opens it on Fight Pass in a new tab.`,data:`Every event, card and result is read from the published event data, indexed into a
+import{LitElement as a,css as o,html as t,nothing as s}from"lit";import n from"../css/system.css"with{type:"css"};const i={about:`FP+ is an alternative way into the UFC Fight Pass library: Nothing plays here \u2014 choosing a fight opens it on Fight Pass in a new tab.`,data:`Every event, card and result is read from the published event data, indexed into a
     few hundred kilobytes and searched in the browser. There is no server. Coverage is
     uneven and the lists say so: most events offer whole-segment replays only, a minority
     of fights have a replay of their own, and some events are not on Fight Pass at all.`};class r extends a{static properties={open:{state:!0}};static styles=[n,o`
