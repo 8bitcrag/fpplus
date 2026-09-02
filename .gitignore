@@ -1,0 +1,23 @@
+/bin-data
+raw-data
+wireframes
+dev
+raw
+
+# tools/ is scratch, except the build and the test runner
+tools/
+
+# build output and the vendored minifier
+/packages
+
+CLAUDE.md
+AGENTS.md
+launch.json
+.claude
+js/search/binary/README.md
+.vscode
+# until ready
+tests
+/css
+/js
+/index.html

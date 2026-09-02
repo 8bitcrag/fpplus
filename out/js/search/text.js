@@ -1,0 +1,1 @@
+function u(r){return(r||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}function i(r,t){return t?r===t?3:r.startsWith(t)?2:r.includes(` ${t}`)?1:r.includes(t)?0:-1:0}export{u as fold,i as scoreMatch};

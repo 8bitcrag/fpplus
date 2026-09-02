@@ -1,0 +1,1 @@
+import{createBinaryBackend as r}from"./search/binary/backend.js";const n=new URL("../bin-data/",import.meta.url).href;let e=r({base:n});const c=()=>e;function o(t){return e=t,e}export{c as backend,o as setBackend};
