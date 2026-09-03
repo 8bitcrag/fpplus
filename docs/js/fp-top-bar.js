@@ -1,4 +1,4 @@
-import{LitElement as s,css as i,html as a,nothing as r}from"lit";import l from"../css/system.css"with{type:"css"};import{displayName as n}from"./format.js";import"./fp-search-field.js";const c=[["fighter","Fighter"],["event","Event"],["all","All fights"]];class h extends s{static properties={mode:{type:String},fighter:{attribute:!1},event:{attribute:!1}};static styles=[l,i`
+import{LitElement as s,css as i,html as a,nothing as r}from"lit";import l from"../css/system.css"with{type:"css"};import{displayName as n}from"./format.js";import"./fp-search-field.js";import"./fp-faq.js";const c=[["fighter","Fighter"],["event","Event"],["all","All fights"]];class h extends s{static properties={mode:{type:String},fighter:{attribute:!1},event:{attribute:!1}};static styles=[l,i`
       .bar { gap: var(--space-5); }
       .search { flex: 1; max-inline-size: 32rem; }
 
@@ -11,6 +11,7 @@ import{LitElement as s,css as i,html as a,nothing as r}from"lit";import l from".
         <div class="bar">
           <a class="wordmark" href="#/all" title="FP+ — start over">FP+</a>
           ${this.#t()}
+          <fp-faq class="end"></fp-faq>
         </div>
         <div class="tabs" role="tablist" aria-label="Search mode">
           ${c.map(([e,t])=>a`

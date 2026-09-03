@@ -7,7 +7,8 @@ raw
 # tools/ is scratch, except the build and the test runner
 tools/
 
-# build output and the vendored minifier
+# the vendored minifier -- docs/ is the build output and IS committed,
+# because GitHub Pages serves the site from it
 /packages
 
 CLAUDE.md
