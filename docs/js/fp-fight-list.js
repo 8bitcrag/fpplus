@@ -1,4 +1,4 @@
-import{LitElement as l,css as h,html as i,nothing as a}from"lit";import m from"../css/system.css"with{type:"css"};import"./fp-fight-row.js";import{count as d,segmentLabel as c}from"./format.js";const u={career:["Date","Opponent","Result","Method","Rd","Class","Event",""],all:["Date","Fight","Result","Method","Rd","Event",""]};class f extends l{static properties={fights:{attribute:!1},layout:{type:String},focus:{attribute:!1},revealed:{type:Boolean},busy:{type:Boolean},remaining:{type:Number}};static styles=[m,h`
+import{LitElement as l,css as h,html as i,nothing as a}from"lit";import m from"./styles.js";import"./fp-fight-row.js";import{count as d,segmentLabel as c}from"./format.js";const u={career:["Date","Opponent","Result","Method","Rd","Class","Event",""],all:["Date","Fight","Result","Method","Rd","Event",""]};class f extends l{static properties={fights:{attribute:!1},layout:{type:String},focus:{attribute:!1},revealed:{type:Boolean},busy:{type:Boolean},remaining:{type:Number}};static styles=[m,h`
       /* The one place each screen's columns are declared. Widths follow the
          wireframe, in rem so they track the type scale rather than a pixel.
 

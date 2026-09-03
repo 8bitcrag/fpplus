@@ -1,4 +1,4 @@
-import{LitElement as m,css as h,html as s,nothing as o}from"lit";import f from"../css/system.css"with{type:"css"};import{badgesOf as v,displayName as r,endingLabel as $,finishDetail as w,finishLabel as y,formatMonth as u,OUTCOME_LABEL as b,opponentIn as g,outcomeAttr as d,sideOf as x,weightAbbr as k,yearOf as E}from"./format.js";class L extends m{static properties={fight:{attribute:!1},layout:{type:String},focus:{attribute:!1},revealed:{type:Boolean},mark:{type:Number},mirror:{type:Boolean}};static styles=[f,h`
+import{LitElement as m,css as h,html as s,nothing as o}from"lit";import f from"./styles.js";import{badgesOf as v,displayName as r,endingLabel as $,finishDetail as w,finishLabel as y,formatMonth as u,OUTCOME_LABEL as b,opponentIn as g,outcomeAttr as d,sideOf as x,weightAbbr as k,yearOf as E}from"./format.js";class L extends m{static properties={fight:{attribute:!1},layout:{type:String},focus:{attribute:!1},revealed:{type:Boolean},mark:{type:Number},mirror:{type:Boolean}};static styles=[f,h`
       :host { display: contents; }
 
       /* The name's colour sits on the *container*, so .who inherits it and

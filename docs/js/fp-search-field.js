@@ -1,4 +1,4 @@
-import{LitElement as l,css as h,html as i,nothing as o}from"lit";import p from"../css/system.css"with{type:"css"};import{backend as c}from"./backend.js";import{displayName as n,formatDate as d,formatDay as r}from"./format.js";const u=120;class m extends l{static properties={kind:{type:String},placeholder:{type:String},selected:{type:String},text:{state:!0},options:{state:!0},open:{state:!0},active:{state:!0}};static styles=[p,h`
+import{LitElement as l,css as h,html as i,nothing as o}from"lit";import p from"./styles.js";import{backend as c}from"./backend.js";import{displayName as n,formatDate as d,formatDay as r}from"./format.js";const u=120;class m extends l{static properties={kind:{type:String},placeholder:{type:String},selected:{type:String},text:{state:!0},options:{state:!0},open:{state:!0},active:{state:!0}};static styles=[p,h`
       :host {
         position: relative;
         flex: 1;

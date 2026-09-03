@@ -1,4 +1,4 @@
-import{LitElement as p,css as m,html as l,nothing as h}from"lit";import v from"../css/system.css"with{type:"css"};import{clearFilters as f,refine as r,toggle as i}from"./search/contract.js";import{AWARD_LABEL as g,count as o,displayName as b}from"./format.js";const c=1993;class y extends p{static properties={query:{attribute:!1},facets:{attribute:!1},lookup:{state:!0}};static styles=[v,m`
+import{LitElement as p,css as m,html as l,nothing as h}from"lit";import v from"./styles.js";import{clearFilters as f,refine as r,toggle as i}from"./search/contract.js";import{AWARD_LABEL as g,count as o,displayName as b}from"./format.js";const c=1993;class y extends p{static properties={query:{attribute:!1},facets:{attribute:!1},lookup:{state:!0}};static styles=[v,m`
       :host { display: block; }
 
       .rail { --stack-gap: var(--space-5); }

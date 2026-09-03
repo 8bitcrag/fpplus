@@ -1,1 +1,1 @@
-import{LitElement as t,html as e}from"lit";import o from"../css/system.css"with{type:"css"};class s extends t{static styles=[o];render(){return e`<footer class="footer"><span>Not affiliated with the UFC</span></footer>`}}customElements.define("fp-footer",s);export{s as FpFooter};
+import{LitElement as t,html as e}from"lit";import o from"./styles.js";class r extends t{static styles=[o];render(){return e`<footer class="footer"><span>Not affiliated with the UFC</span></footer>`}}customElements.define("fp-footer",r);export{r as FpFooter};

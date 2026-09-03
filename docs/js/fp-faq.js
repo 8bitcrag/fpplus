@@ -1,4 +1,4 @@
-import{LitElement as o,css as r,html as t}from"lit";import n from"../css/system.css"with{type:"css"};const l=[{q:"What is this?",a:[`A search interface for UFC Fight Pass. You can search fighter careers and events, or
+import{LitElement as o,css as r,html as a}from"lit";import n from"./styles.js";const l=[{q:"What is this?",a:[`A search interface for UFC Fight Pass. You can search fighter careers and events, or
        filter all fights in various ways. Fight details are hidden to avoid spoilers, but you
        can click the 'Reveal results' toggle to see them. Fighter careers can be compared,
        highlighting common opponents.`,`You need a subscription to Fight Pass to see the videos; this just links to them in a
@@ -64,22 +64,22 @@ import{LitElement as o,css as r,html as t}from"lit";import n from"../css/system.
       }
 
       section[data-sub] h3 { --title-size: var(--text-sm); }
-    `];render(){return t`
-      <button class="icon-btn trigger" title="FAQs" aria-label="Open the FAQs" @click=${this.#a}>?</button>
+    `];render(){return a`
+      <button class="icon-btn trigger" title="FAQs" aria-label="Open the FAQs" @click=${this.#t}>?</button>
 
       <dialog aria-labelledby="faq-title" @click=${this.#s}>
         <div class="bar">
           <h2 class="title" id="faq-title">FAQs</h2>
-          <button class="icon-btn end" title="Close" aria-label="Close" @click=${this.#t}>✕</button>
+          <button class="icon-btn end" title="Close" aria-label="Close" @click=${this.#a}>✕</button>
         </div>
 
         <div class="body stack scroll">
-          ${l.map(({q:e,a,sub:s})=>t`
+          ${l.map(({q:e,a:t,sub:s})=>a`
               <section ?data-sub=${s}>
                 <h3 class="title">${e}</h3>
-                ${a.map(i=>t`<p>${i}</p>`)}
+                ${t.map(i=>a`<p>${i}</p>`)}
               </section>
             `)}
         </div>
       </dialog>
-    `}#e(){return this.renderRoot.querySelector("dialog")}#a=()=>this.#e().showModal();#t=()=>this.#e().close();#s=e=>{e.target===this.#e()&&this.#t()}}customElements.define("fp-faq",d);export{d as FpFaq};
+    `}#e(){return this.renderRoot.querySelector("dialog")}#t=()=>this.#e().showModal();#a=()=>this.#e().close();#s=e=>{e.target===this.#e()&&this.#a()}}customElements.define("fp-faq",d);export{d as FpFaq};

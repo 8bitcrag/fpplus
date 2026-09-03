@@ -1,4 +1,4 @@
-import{LitElement as m,css as h,html as a,nothing as c}from"lit";import d from"../css/system.css"with{type:"css"};import"./fp-fight-row.js";import{displayName as n,opponentIn as p,plural as u}from"./format.js";class f extends m{static properties={results:{attribute:!1},fighter:{attribute:!1},opponent:{attribute:!1},revealed:{type:Boolean},sharedOnly:{type:Boolean},side:{type:String}};static styles=[d,h`
+import{LitElement as m,css as h,html as a,nothing as c}from"lit";import d from"./styles.js";import"./fp-fight-row.js";import{displayName as n,opponentIn as p,plural as u}from"./format.js";class f extends m{static properties={results:{attribute:!1},fighter:{attribute:!1},opponent:{attribute:!1},revealed:{type:Boolean},sharedOnly:{type:Boolean},side:{type:String}};static styles=[d,h`
       :host { display: block; }
 
       /* 3d: a 22px list gutter with a hairline down it. */

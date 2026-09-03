@@ -1,4 +1,4 @@
-import{LitElement as r,css as o,html as t,nothing as s}from"lit";import l from"../css/system.css"with{type:"css"};import"./fp-search-field.js";import{displayName as p,monogram as h,plural as c,yearOfDay as n}from"./format.js";class d extends r{static properties={fighter:{attribute:!1},opponent:{attribute:!1},fights:{type:Number},picking:{state:!0}};static styles=[l,o`
+import{LitElement as r,css as o,html as t,nothing as s}from"lit";import l from"./styles.js";import"./fp-search-field.js";import{displayName as p,monogram as h,plural as c,yearOfDay as n}from"./format.js";class d extends r{static properties={fighter:{attribute:!1},opponent:{attribute:!1},fights:{type:Number},picking:{state:!0}};static styles=[l,o`
       :host { display: block; }
 
       .who {

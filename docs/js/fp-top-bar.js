@@ -1,4 +1,4 @@
-import{LitElement as s,css as i,html as a,nothing as r}from"lit";import l from"../css/system.css"with{type:"css"};import{displayName as n}from"./format.js";import"./fp-search-field.js";import"./fp-faq.js";const c=[["fighter","Fighter"],["event","Event"],["all","All fights"]];class h extends s{static properties={mode:{type:String},fighter:{attribute:!1},event:{attribute:!1}};static styles=[l,i`
+import{LitElement as s,css as i,html as a,nothing as r}from"lit";import l from"./styles.js";import{displayName as n}from"./format.js";import"./fp-search-field.js";import"./fp-faq.js";const c=[["fighter","Fighter"],["event","Event"],["all","All fights"]];class h extends s{static properties={mode:{type:String},fighter:{attribute:!1},event:{attribute:!1}};static styles=[l,i`
       .bar { gap: var(--space-5); }
       .search { flex: 1; max-inline-size: 32rem; }
 
