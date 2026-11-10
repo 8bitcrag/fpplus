@@ -1,1 +1,0 @@
-const e=new CSSStyleSheet,t=await fetch(new URL("../css/system.css",import.meta.url));if(!t.ok)throw new Error(`styles: system.css failed to load (${t.status})`);e.replaceSync(await t.text());var s=e;export{s as default};
